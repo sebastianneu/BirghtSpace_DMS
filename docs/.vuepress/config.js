@@ -17,7 +17,7 @@ export default defineUserConfig({
      { text: 'Get Started', link:'/get-started',},
      { text: 'Examples', link: '/examples/examples'},
      {
-      text: 'Dropdown',
+      text: 'Group',
       children: [
         {
           text: 'SubGroup1',
