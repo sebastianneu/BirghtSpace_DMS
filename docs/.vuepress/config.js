@@ -4,7 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  base: '/vuepress-starter/',
+  base: '/vuepress-starte/',
   title: 'BrightSpace',
   description: 'BrightSpace Site',
   theme: defaultTheme({
