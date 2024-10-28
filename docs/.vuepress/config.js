@@ -1,17 +1,17 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'en-US',
   base: '/vuepress-starter/',
   title: 'BrightSpace',
   description: 'BrightSpace Site',
+
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    repo: 'xxThu/vuepress-starter',
     navbar: [
      { text: 'Home', link: '/',},
      { text: 'Get Started', link:'/get-started',},
@@ -54,7 +54,9 @@ export default defineUserConfig({
 
   }),
 
-
+  plugins: [
+    searchPlugin(),
+  ],
 
   bundler: viteBundler(),
 })
