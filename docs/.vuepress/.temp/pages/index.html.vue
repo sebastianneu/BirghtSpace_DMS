@@ -1,4 +1,5 @@
-<template><div><p>This is the content of home page. Check <a href="https://vuejs.press/reference/default-theme/frontmatter.html#home-page" target="_blank" rel="noopener noreferrer">Home Page Docs</a> for more details.</p>
+<template><div><p>Funded by <a href="https://european-union.europa.eu/index_de" target="_blank" rel="noopener noreferrer">the european union</a>. Views and opinions expressed are those of the authors only and do not necessarily reflect those of the
+European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them.</p>
 </div></template>
 
 

@@ -1,20 +1,20 @@
-# Get Started
+# Overview 
 
 This is a normal page, which contains VuePress basics.
 
-## Pages
+## Indicater
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
 
-See [routing][] for more details.
+## Data
 
-## Content
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+### SAFE Space across spatial scales
+                                                                                                                                                                     
+### JOS (Just Operating Space )Space across spatial scales
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+### SAFE Space across spatial scales – Novel spatial data for agricultural structure
 
-## Configuration
+<!-- ## Configuration
 
 VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
 
@@ -43,4 +43,4 @@ You can [add extra style][style] with `.vuepress/styles/index.scss` file.
 [navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
 [sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
 [default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+[style]: https://vuejs.press/reference/default-theme/styles.html#style-file -->
