@@ -9,7 +9,7 @@ export default defineUserConfig({
   base: '/vuepress-starter/',
   title: ' ',
   description: ' ',
-
+  docsDir: 'docs',
   theme: defaultTheme({
     logo: '/images/brightspace logo horizontal color 300CMYK.png',
     repo: 'xxThu/vuepress-starter',
