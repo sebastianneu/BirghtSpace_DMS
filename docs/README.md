@@ -7,8 +7,8 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: Fadn Spatial
+    link: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
     type: secondary
 
 # features:

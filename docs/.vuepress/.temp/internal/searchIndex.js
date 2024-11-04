@@ -36,32 +36,38 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "Markdown Extension Examples",
     "headers": [
       {
         "level": 2,
-        "title": "Test 0",
-        "slug": "test-0",
-        "link": "#test-0",
+        "title": "Syntax Highlighting",
+        "slug": "syntax-highlighting",
+        "link": "#syntax-highlighting",
         "children": []
       },
       {
         "level": 2,
-        "title": "Test 1",
-        "slug": "test-1",
-        "link": "#test-1",
-        "children": [
-          {
-            "level": 3,
-            "title": "Test 1.1",
-            "slug": "test-1-1",
-            "link": "#test-1-1",
-            "children": []
-          }
-        ]
+        "title": "Custom Containers",
+        "slug": "custom-containers",
+        "link": "#custom-containers",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Emoji",
+        "slug": "emoji",
+        "link": "#emoji",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "More",
+        "slug": "more",
+        "link": "#more",
+        "children": []
       }
     ],
-    "path": "/baz/",
+    "path": "/examples/examples.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -404,38 +410,32 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Markdown Extension Examples",
+    "title": "",
     "headers": [
       {
         "level": 2,
-        "title": "Syntax Highlighting",
-        "slug": "syntax-highlighting",
-        "link": "#syntax-highlighting",
+        "title": "Test 0",
+        "slug": "test-0",
+        "link": "#test-0",
         "children": []
       },
       {
         "level": 2,
-        "title": "Custom Containers",
-        "slug": "custom-containers",
-        "link": "#custom-containers",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Emoji",
-        "slug": "emoji",
-        "link": "#emoji",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "More",
-        "slug": "more",
-        "link": "#more",
-        "children": []
+        "title": "Test 1",
+        "slug": "test-1",
+        "link": "#test-1",
+        "children": [
+          {
+            "level": 3,
+            "title": "Test 1.1",
+            "slug": "test-1-1",
+            "link": "#test-1-1",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/examples/examples.html",
+    "path": "/baz/",
     "pathLocale": "/",
     "extraFields": []
   },
