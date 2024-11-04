@@ -1,4 +1,4 @@
-<template><div><h1 id="jos" tabindex="-1"><a class="header-anchor" href="#jos"><span>JOS</span></a></h1>
+<template><div><h1 id="just-operating-space-jos" tabindex="-1"><a class="header-anchor" href="#just-operating-space-jos"><span>Just Operating Space (JOS)</span></a></h1>
 <h2 id="subsidies-as-part-of-income" tabindex="-1"><a class="header-anchor" href="#subsidies-as-part-of-income"><span>Subsidies as part of income</span></a></h2>
 <p>FADN subsidies from a down-scaling approach</p>
 <h3 id="source" tabindex="-1"><a class="header-anchor" href="#source"><span>Source</span></a></h3>

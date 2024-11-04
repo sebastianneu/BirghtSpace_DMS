@@ -1,4 +1,4 @@
-# JOS 
+# Just Operating Space (JOS)
 
 ## Subsidies as part of income
 
@@ -7,6 +7,7 @@ FADN subsidies from a down-scaling approach
 ### Source
 
 FADN data and other
+
 ### Description
 
 Downscaling approach baseod on .... Data is protected (more than 15 obs. per observation unit)
@@ -109,5 +110,9 @@ Downscaling approach baseod on .... Data is protected (more than 15 obs. per obs
 
 
 ### Comments regarding the current status
+
+
+
+
 
 [FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/

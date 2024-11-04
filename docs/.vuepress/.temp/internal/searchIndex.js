@@ -102,28 +102,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "bar in sub2",
-        "slug": "bar-in-sub2",
-        "link": "#bar-in-sub2",
-        "children": []
-      }
-    ],
-    "path": "/sub2/bar.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Foo in sub2",
-    "headers": [],
-    "path": "/sub2/foo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Indicator",
     "headers": [],
     "path": "/guide/indicator.html",
@@ -131,7 +109,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "JOS",
+    "title": "Just Operating Space (JOS)",
     "headers": [
       {
         "level": 2,
@@ -522,22 +500,31 @@ export const SEARCH_INDEX = [
   },
   {
     "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "bar in sub2",
+        "slug": "bar-in-sub2",
+        "link": "#bar-in-sub2",
+        "children": []
+      }
+    ],
+    "path": "/sub2/bar.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo in sub2",
+    "headers": [],
+    "path": "/sub2/foo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
     "headers": [],
     "path": "/404.html",
     "pathLocale": "/",
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
