@@ -4,12 +4,12 @@ title: BrightSpace
 heroImage: /images/brightspace logo horizontal color 300CMYK.png
 actions:
   - text: Database and Monitoring System
-    link: /get-started.html
+    link: /guide/overview.html
     type: primary
 
-  - text: Fadn Spatial
-    link: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
-    type: secondary
+  # - text: Fadn Spatial
+  #   link: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
+  #   type: secondary
 
 # features:
   # - title: Simplicity First

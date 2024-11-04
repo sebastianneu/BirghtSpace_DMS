@@ -19,7 +19,7 @@ export default defineUserConfig({
     editLinkText: 'Edit this page on GitHub',
     navbar : [
      { text: 'Home', link: '/',},
-    //  { text: 'Guide', link:'/get-started',},
+    //  { text: 'Guide', link:'/guide/overview.md',},
     //  { text: 'Examples', link:'/examples/examples'},
      { text: 'Guide', 
       children: [

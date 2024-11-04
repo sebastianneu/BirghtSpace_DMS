@@ -1,4 +1,12 @@
 <template><div><h1 id="jos" tabindex="-1"><a class="header-anchor" href="#jos"><span>JOS</span></a></h1>
+<h2 id="subsidies-as-part-of-income" tabindex="-1"><a class="header-anchor" href="#subsidies-as-part-of-income"><span>Subsidies as part of income</span></a></h2>
+<p>FADN subsidies from a down-scaling approach</p>
+<h3 id="source" tabindex="-1"><a class="header-anchor" href="#source"><span>Source</span></a></h3>
+<p>FADN data and other</p>
+<h3 id="description" tabindex="-1"><a class="header-anchor" href="#description"><span>Description</span></a></h3>
+<p>Downscaling approach baseod on .... Data is protected (more than 15 obs. per observation unit)</p>
+<h3 id="link" tabindex="-1"><a class="header-anchor" href="#link"><span>Link</span></a></h3>
+<p><a href="https://humusklimanetz-couch.thuenen.de/fadn-spatial/" target="_blank" rel="noopener noreferrer">FADN SPATIAL</a></p>
 <h2 id="task-3-3-7-2" tabindex="-1"><a class="header-anchor" href="#task-3-3-7-2"><span>Task 3.3 &amp; 7.2</span></a></h2>
 <h3 id="data-or-processes-required-for-evidence-on-sjos" tabindex="-1"><a class="header-anchor" href="#data-or-processes-required-for-evidence-on-sjos"><span>Data or processes required for evidence on SJOS</span></a></h3>
 <h3 id="resolution" tabindex="-1"><a class="header-anchor" href="#resolution"><span>Resolution</span></a></h3>

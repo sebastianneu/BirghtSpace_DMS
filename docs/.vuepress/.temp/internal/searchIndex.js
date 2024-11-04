@@ -36,6 +36,36 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Test 0",
+        "slug": "test-0",
+        "link": "#test-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Test 1",
+        "slug": "test-1",
+        "link": "#test-1",
+        "children": [
+          {
+            "level": 3,
+            "title": "Test 1.1",
+            "slug": "test-1-1",
+            "link": "#test-1-1",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/baz/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Markdown Extension Examples",
     "headers": [
       {
@@ -72,6 +102,28 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "bar in sub2",
+        "slug": "bar-in-sub2",
+        "link": "#bar-in-sub2",
+        "children": []
+      }
+    ],
+    "path": "/sub2/bar.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo in sub2",
+    "headers": [],
+    "path": "/sub2/foo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Indicator",
     "headers": [],
     "path": "/guide/indicator.html",
@@ -81,6 +133,35 @@ export const SEARCH_INDEX = [
   {
     "title": "JOS",
     "headers": [
+      {
+        "level": 2,
+        "title": "Subsidies as part of income",
+        "slug": "subsidies-as-part-of-income",
+        "link": "#subsidies-as-part-of-income",
+        "children": [
+          {
+            "level": 3,
+            "title": "Source",
+            "slug": "source",
+            "link": "#source",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Description",
+            "slug": "description",
+            "link": "#description",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Link",
+            "slug": "link",
+            "link": "#link",
+            "children": []
+          }
+        ]
+      },
       {
         "level": 2,
         "title": "Task 3.3 & 7.2",
@@ -414,36 +495,6 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "Test 0",
-        "slug": "test-0",
-        "link": "#test-0",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Test 1",
-        "slug": "test-1",
-        "link": "#test-1",
-        "children": [
-          {
-            "level": 3,
-            "title": "Test 1.1",
-            "slug": "test-1-1",
-            "link": "#test-1-1",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/baz/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
         "title": "Bar in sub1",
         "slug": "bar-in-sub1",
         "link": "#bar-in-sub1",
@@ -471,31 +522,22 @@ export const SEARCH_INDEX = [
   },
   {
     "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "bar in sub2",
-        "slug": "bar-in-sub2",
-        "link": "#bar-in-sub2",
-        "children": []
-      }
-    ],
-    "path": "/sub2/bar.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Foo in sub2",
-    "headers": [],
-    "path": "/sub2/foo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
     "headers": [],
     "path": "/404.html",
     "pathLocale": "/",
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
