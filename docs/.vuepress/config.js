@@ -2,6 +2,8 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
+// import { NavbarOptions } from '@vuepress/theme-default'
 
 
 export default defineUserConfig({
@@ -9,14 +11,27 @@ export default defineUserConfig({
   base: '/vuepress-starter/',
   title: ' ',
   description: ' ',
-  docsDir: 'docs',
+
   theme: defaultTheme({
     logo: '/images/brightspace logo horizontal color 300CMYK.png',
     repo: 'xxThu/vuepress-starter',
-    navbar: [
+    docsDir: 'docs',
+    editLinkText: 'Edit this page on GitHub',
+    navbar : [
      { text: 'Home', link: '/',},
-     { text: 'Guide', link:'/get-started',},
-    //  { text: 'Examples', link: '/examples/examples'},
+    //  { text: 'Guide', link:'/get-started',},
+    //  { text: 'Examples', link:'/examples/examples'},
+     { text: 'Guide', 
+      children: [
+        
+        'guide/overview.md',
+        'guide/indicator.md',
+        'guide/safe.md',
+        'guide/jos.md',
+        // 'guide/.md',
+  
+      ]
+    },
     //  {
     //   text: 'Group',
     //   children: [
@@ -51,12 +66,28 @@ export default defineUserConfig({
 
 
     ],
-
+    sidebar: {
+      '/guide/': [
+        {
+          text: 'Guide',
+          children: [
+            '/guide/overview.md',
+            '/guide/indicator.md',
+            '/guide/safe.md',
+            '/guide/jos.md',
+          ],
+        },
+      ],
+    },
 
   }),
 
   plugins: [
     searchPlugin(),
+    shikiPlugin({
+      theme: 'github-dark',  // 选择主题
+      langs: ['js', 'html', 'css','md'], // 指定语言
+    }),
   ],
 
   bundler: viteBundler(),

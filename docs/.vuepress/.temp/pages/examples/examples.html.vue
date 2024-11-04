@@ -3,47 +3,47 @@
 <h2 id="syntax-highlighting" tabindex="-1"><a class="header-anchor" href="#syntax-highlighting"><span>Syntax Highlighting</span></a></h2>
 <p>VitePress provides Syntax Highlighting powered by <a href="https://github.com/shikijs/shiki" target="_blank" rel="noopener noreferrer">Shiki</a>, with additional features like line-highlighting:</p>
 <p><strong>Input</strong></p>
-<div class="language-markdown line-numbers-mode" data-highlighter="prismjs" data-ext="md" data-title="md"><pre v-pre><code><span class="line"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">js{4}</span></span>
-<span class="line"><span class="token code-block language-js"><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span></span>
-<span class="line">  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
-<span class="line">    <span class="token keyword">return</span> <span class="token punctuation">{</span></span>
-<span class="line">      <span class="token literal-property property">msg</span><span class="token operator">:</span> <span class="token string">'Highlighted!'</span></span>
-<span class="line">    <span class="token punctuation">}</span></span>
-<span class="line">  <span class="token punctuation">}</span></span>
-<span class="line"><span class="token punctuation">}</span></span></span>
-<span class="line"><span class="token punctuation">```</span></span></span>
-<span class="line"></span></code></pre>
+<div class="language-markdown line-numbers-mode" data-highlighter="prismjs" data-ext="md" data-title="md"><pre v-pre  class="shiki github-dark" style="background-color: #24292e" tabindex="0 language-markdown"><code><span class="line"><span class="line"><span style="color: #E1E4E8">```js</span></span></span>
+<span class="line"><span class="line"><span style="color: #F97583">export</span><span style="color: #E1E4E8"> </span><span style="color: #F97583">default</span><span style="color: #E1E4E8"> {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">data</span><span style="color: #E1E4E8"> () {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">    </span><span style="color: #F97583">return</span><span style="color: #E1E4E8"> {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">      msg: </span><span style="color: #9ECBFF">&#39;Highlighted!&#39;</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">    }</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">  }</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">}</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">```</span></span></span>
+<span class="line"><span class="line"></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Output</strong></p>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line"><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span></span>
-<span class="line">  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
-<span class="line">    <span class="token keyword">return</span> <span class="token punctuation">{</span></span>
-<span class="line highlighted">      <span class="token literal-property property">msg</span><span class="token operator">:</span> <span class="token string">'Highlighted!'</span></span>
-<span class="line">    <span class="token punctuation">}</span></span>
-<span class="line">  <span class="token punctuation">}</span></span>
-<span class="line"><span class="token punctuation">}</span></span>
-<span class="line"></span></code></pre>
+<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre  class="shiki github-dark" style="background-color: #24292e" tabindex="0 language-javascript"><code><span class="line"><span class="line"><span style="color: #F97583">export</span><span style="color: #E1E4E8"> </span><span style="color: #F97583">default</span><span style="color: #E1E4E8"> {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">data</span><span style="color: #E1E4E8"> () {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">    </span><span style="color: #F97583">return</span><span style="color: #E1E4E8"> {</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">      msg: </span><span style="color: #9ECBFF">&#39;Highlighted!&#39;</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">    }</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">  }</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">}</span></span></span>
+<span class="line"><span class="line"></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="custom-containers" tabindex="-1"><a class="header-anchor" href="#custom-containers"><span>Custom Containers</span></a></h2>
 <p><strong>Input</strong></p>
-<div class="language-markdown line-numbers-mode" data-highlighter="prismjs" data-ext="md" data-title="md"><pre v-pre><code><span class="line">::: info</span>
-<span class="line">This is an info box.</span>
-<span class="line">:::</span>
-<span class="line"></span>
-<span class="line">::: tip</span>
-<span class="line">This is a tip.</span>
-<span class="line">:::</span>
-<span class="line"></span>
-<span class="line">::: warning</span>
-<span class="line">This is a warning.</span>
-<span class="line">:::</span>
-<span class="line"></span>
-<span class="line">::: danger</span>
-<span class="line">This is a dangerous warning.</span>
-<span class="line">:::</span>
-<span class="line"></span>
-<span class="line">::: details</span>
-<span class="line">This is a details block.</span>
-<span class="line">:::</span>
-<span class="line"></span></code></pre>
+<div class="language-markdown line-numbers-mode" data-highlighter="prismjs" data-ext="md" data-title="md"><pre v-pre  class="shiki github-dark" style="background-color: #24292e" tabindex="0 language-markdown"><code><span class="line"><span class="line"><span style="color: #E1E4E8">::: info</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">This is an info box.</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">:::</span></span></span>
+<span class="line"><span class="line"></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">::: tip</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">This is a tip.</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">:::</span></span></span>
+<span class="line"><span class="line"></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">::: warning</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">This is a warning.</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">:::</span></span></span>
+<span class="line"><span class="line"></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">::: danger</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">This is a dangerous warning.</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">:::</span></span></span>
+<span class="line"><span class="line"></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">::: details</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">This is a details block.</span></span></span>
+<span class="line"><span class="line"><span style="color: #E1E4E8">:::</span></span></span>
+<span class="line"><span class="line"></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Output</strong></p>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>

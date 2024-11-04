@@ -17,5 +17,8 @@
     "sass-embedded": "^1.80.4",
     "vue": "^3.4.0",
     "vuepress": "^2.0.0-rc.7"
+  },
+  "dependencies": {
+    "@vuepress/plugin-shiki": "^2.0.0-rc.0"
   }
 }
