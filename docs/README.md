@@ -25,7 +25,7 @@ actions:
 #   - title: Bundlers
 #     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 
-footer:  Funded by the European Union | BrightSpace Grant agreement ID 101060075
+footer:  © 2024 Funded by the European Union | BrightSpace Grant agreement ID 101060075
 
 ---
 
