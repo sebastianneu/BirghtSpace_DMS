@@ -11,7 +11,10 @@ export default defineUserConfig({
   base: '/vuepress-starter/',
   title: ' ',
   description: ' ',
-
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }],
+    ['title', {}, 'BrightSpace']
+  ],
   theme: defaultTheme({
     logo: '/images/brightspace logo horizontal color 300CMYK.png',
     repo: 'xxThu/vuepress-starter',

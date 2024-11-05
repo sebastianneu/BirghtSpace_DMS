@@ -66,6 +66,28 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "bar in sub2",
+        "slug": "bar-in-sub2",
+        "link": "#bar-in-sub2",
+        "children": []
+      }
+    ],
+    "path": "/sub2/bar.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo in sub2",
+    "headers": [],
+    "path": "/sub2/foo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Markdown Extension Examples",
     "headers": [
       {
@@ -98,6 +120,36 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/examples/examples.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Bar in sub1",
+        "slug": "bar-in-sub1",
+        "link": "#bar-in-sub1",
+        "children": []
+      }
+    ],
+    "path": "/sub1/bar.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Foo in sub1",
+        "slug": "foo-in-sub1",
+        "link": "#foo-in-sub1",
+        "children": []
+      }
+    ],
+    "path": "/sub1/foo.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -465,58 +517,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/guide/safe.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Bar in sub1",
-        "slug": "bar-in-sub1",
-        "link": "#bar-in-sub1",
-        "children": []
-      }
-    ],
-    "path": "/sub1/bar.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Foo in sub1",
-        "slug": "foo-in-sub1",
-        "link": "#foo-in-sub1",
-        "children": []
-      }
-    ],
-    "path": "/sub1/foo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "bar in sub2",
-        "slug": "bar-in-sub2",
-        "link": "#bar-in-sub2",
-        "children": []
-      }
-    ],
-    "path": "/sub2/bar.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Foo in sub2",
-    "headers": [],
-    "path": "/sub2/foo.html",
     "pathLocale": "/",
     "extraFields": []
   },
