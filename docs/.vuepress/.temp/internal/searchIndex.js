@@ -66,42 +66,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Markdown Extension Examples",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Syntax Highlighting",
-        "slug": "syntax-highlighting",
-        "link": "#syntax-highlighting",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Custom Containers",
-        "slug": "custom-containers",
-        "link": "#custom-containers",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Emoji",
-        "slug": "emoji",
-        "link": "#emoji",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "More",
-        "slug": "more",
-        "link": "#more",
-        "children": []
-      }
-    ],
-    "path": "/examples/examples.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Indicator",
     "headers": [],
     "path": "/guide/indicator.html",
@@ -465,6 +429,42 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/guide/safe.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown Extension Examples",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Syntax Highlighting",
+        "slug": "syntax-highlighting",
+        "link": "#syntax-highlighting",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Custom Containers",
+        "slug": "custom-containers",
+        "link": "#custom-containers",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Emoji",
+        "slug": "emoji",
+        "link": "#emoji",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "More",
+        "slug": "more",
+        "link": "#more",
+        "children": []
+      }
+    ],
+    "path": "/examples/examples.html",
     "pathLocale": "/",
     "extraFields": []
   },

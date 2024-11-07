@@ -3,8 +3,10 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
-// import { NavbarOptions } from '@vuepress/theme-default'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from 'vuepress/utils'
 
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -14,28 +16,13 @@ export default defineUserConfig({
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }],
     ['title', {}, 'BrightSpace'],
-
-      [
-        'style',
-        {},
-        `
-          .vp-footer {
-            padding: 3rem !important;
-            border-top: 1px solid var(--vp-c-border) !important;
-            color: var(--vp-c-text-mute) !important;
-            text-align: center !important;
-            transition: border-color var(--vp-t-color) !important;
-            margin-top: 360px; /* 增加顶部外边距，以将边框向下移动 */
-          }
-        `,
-      ],
   ],
   theme: defaultTheme({
     logo: '/images/brightspace logo horizontal color 300CMYK.png',
     repo: 'xxThu/vuepress-starter',
     docsDir: 'docs',
     editLinkText: 'Edit this page on GitHub',
-    footer: '© 2024 Your Company Name <img src="/images/EN-Funded by the EU-POS.jpg" alt="Logo" style="height: 50px;"/>',
+    
     navbar : [
      { text: 'Home', link: '/',},
     //  { text: 'Guide', link:'/get-started',},
@@ -107,6 +94,12 @@ export default defineUserConfig({
       theme: 'github-dark',  // 选择主题
       langs: ['js', 'html', 'css','md'], // 指定语言
     }),
+    registerComponentsPlugin({
+      components: {
+        Footer: path.resolve(__dirname, '.components/Footer.vue'),
+      },
+    }),
+
   ],
 
   bundler: viteBundler(),
