@@ -6,6 +6,8 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from 'vuepress/utils'
 
+
+
 const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
@@ -38,44 +40,15 @@ export default defineUserConfig({
   
       ]
     },
-    //  {
-    //   text: 'Group',
-    //   children: [
-    //     {
-    //       text: 'SubGroup1',
-    //       prefix: 'sub1/',
-    //       children: [
-    //         'foo.md', // resolved as `/guide/group/sub1/bar.md`
-    //         'bar.md', // resolved as `/guide/group/sub1/bar.md`
-
-    //         // an external link
-    //         {
-    //           text: 'Example',
-    //           link: 'https://example.com',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       text: 'SubGroup2',
-    //       prefix: 'sub2/',
-    //       // for project links, .md or .html suffix is optional
-    //       children: [
-    //         'foo', // resolved as `/guide/group/sub2/foo.md`
-    //         'bar', // resolved as `/guide/group/sub2/bar.md`
-
-    //         // link not inside SubGroup2
-    //         '/baz/', // resolved as `/baz/README.md`
-    //       ],
-    //     },
-    //   ],
-    // },
-
 
     ],
     sidebar: {
       '/guide/': [
         {
           text: 'Guide',
+          title: 'Group 1',
+          collapsible: false,
+          sidebarDepth: 2, 
           children: [
             '/guide/overview.md',
             '/guide/indicator.md',
@@ -94,12 +67,13 @@ export default defineUserConfig({
       theme: 'github-dark',  // 选择主题
       langs: ['js', 'html', 'css','md'], // 指定语言
     }),
+    
     registerComponentsPlugin({
       components: {
         Footer: path.resolve(__dirname, '.components/Footer.vue'),
       },
     }),
-
+  
   ],
 
   bundler: viteBundler(),

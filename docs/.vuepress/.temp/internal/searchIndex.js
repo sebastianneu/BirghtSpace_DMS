@@ -66,8 +66,52 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Markdown Extension Examples",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Syntax Highlighting",
+        "slug": "syntax-highlighting",
+        "link": "#syntax-highlighting",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Custom Containers",
+        "slug": "custom-containers",
+        "link": "#custom-containers",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Emoji",
+        "slug": "emoji",
+        "link": "#emoji",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "More",
+        "slug": "more",
+        "link": "#more",
+        "children": []
+      }
+    ],
+    "path": "/examples/examples.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Indicator",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "test",
+        "slug": "test",
+        "link": "#test",
+        "children": []
+      }
+    ],
     "path": "/guide/indicator.html",
     "pathLocale": "/",
     "extraFields": []
@@ -433,38 +477,24 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Markdown Extension Examples",
+    "title": "",
     "headers": [
       {
         "level": 2,
-        "title": "Syntax Highlighting",
-        "slug": "syntax-highlighting",
-        "link": "#syntax-highlighting",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Custom Containers",
-        "slug": "custom-containers",
-        "link": "#custom-containers",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Emoji",
-        "slug": "emoji",
-        "link": "#emoji",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "More",
-        "slug": "more",
-        "link": "#more",
+        "title": "bar in sub2",
+        "slug": "bar-in-sub2",
+        "link": "#bar-in-sub2",
         "children": []
       }
     ],
-    "path": "/examples/examples.html",
+    "path": "/sub2/bar.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo in sub2",
+    "headers": [],
+    "path": "/sub2/foo.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -495,28 +525,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/sub1/foo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "bar in sub2",
-        "slug": "bar-in-sub2",
-        "link": "#bar-in-sub2",
-        "children": []
-      }
-    ],
-    "path": "/sub2/bar.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Foo in sub2",
-    "headers": [],
-    "path": "/sub2/foo.html",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -36,7 +36,7 @@ export default defineComponent({
   padding: 1rem;
   border-top: 1px solid var(--vp-c-border);
   color: var(--vp-c-text-mute);
-  background-color: white; /* 或者自定义背景颜色 */
+  /* background-color: white; 或者自定义背景颜色 */
   text-align: center;
   z-index: 10; /* 确保 footer 在最上层 */
 }
