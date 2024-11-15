@@ -1,118 +1,24 @@
-# Just Operating Space (JOS)
+# Just Operating Space (JOS) thematics
 
-## Subsidies as part of income
+## Farm resilience
 
-FADN subsidies from a down-scaling approach
+### Farm income
 
-### Source
-
-FADN data and other
-
-### Description
+#### Description
+FADN subsidies are part of farm income. As these data is only accessible at farm level
 
 Downscaling approach baseod on .... Data is protected (more than 15 obs. per observation unit)
 
-### Link
+#### Main data sources
+
+FADN data and other
+
+
+
+#### Link
 
 [FADN SPATIAL]
-
-## Task 3.3 & 7.2
-
-### Data or processes required for evidence on SJOS
-
-
-### Resolution
-
-
-
-### Work started
-
-
-
-### Responsibility
-
-
-
-### Data toolbox
-
-
-
-### Comments regarding the current status
-
-
-## Task 3.1 & 3.2
-
-### Data or processes required for evidence on SJOS
-
-
-### Resolution
-
-
-
-### Work started
-
-
-
-### Responsibility
-
-
-
-### Data toolbox
-
-
-
-### Comments regarding the current status
-
-
-## Task 7.1
-
-### Data or processes required for evidence on SJOS
-
-
-### Resolution
-
-
-
-### Work started
-
-
-
-### Responsibility
-
-
-
-### Data toolbox
-
-
-
-### Comments regarding the current status
-
-
-## Task 7.3
-
-### Data or processes required for evidence on SJOS
-
-
-### Resolution
-
-
-
-### Work started
-
-
-
-### Responsibility
-
-
-
-### Data toolbox
-
-
-
-### Comments regarding the current status
-
-
-
-
-
 [FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
+
+### Farm viability
+
