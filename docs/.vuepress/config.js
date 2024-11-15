@@ -29,7 +29,7 @@ export default defineUserConfig({
      { text: 'Home', link: '/',},
     //  { text: 'Guide', link:'/get-started',},
     //  { text: 'Examples', link:'/examples/examples'},
-     { text: 'Guide', 
+     { text: 'BrightSpace database and monitoring system', 
       children: [
         
         'guide/overview.md',
@@ -45,7 +45,7 @@ export default defineUserConfig({
     sidebar: {
       '/guide/': [
         {
-          text: 'Guide',
+          text: 'BrightSpace database and monitoring system',
           title: 'Group 1',
           collapsible: false,
           sidebarDepth: 2, 
