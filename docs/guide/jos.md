@@ -18,8 +18,7 @@ Data is protected (more than 15 obs. per observation unit).
 * CAPDIS for information on land use and yields (Britz, W., Witzke, P.  (2014). CAPRI model documentation 2014)
     * Information on land use in the FSU is calculated calculated through the Land Area Prediction model (LAPM), based on the methods of Lamboni et al. (2016: Lamboni, M. R. Koeble, A. Leip (2016).
     * Multi-scale land-use disaggregation modelling: concept and application to EU countries. Environmental Modelling & Software 82, 183-217. [https://doi.org/10.1016/j.envsoft.2016.04.028]), and assessing its accuracy (Leip et al., 2017: Leip, A., Koeble, R., Rotllan-Puig, X., 2017. Land Area Prediction model (LAPM) Accuracy Assessment. European Commission, Ispra (VA), Italy. [https://doi.org/10.2760/624482]). 
-    * They include available data of crop areas from the Farm Structure Survey 2010 at a 10 km x 10 km grid, developing a methodology to gap-fill missing data which was filtered out by confidentiality rules (Bujnowska et al., 2019: Bujnowska, A., Gomez-Prieto, O., Kloek, W., Koeble, R., Leip, D., Martinez-Solano, D., Ramos, H. (2019). 
-    * Disseminating European data at farm level while protecting confidentiality: scientific use files and homogeneous spatial units, in: International Conference on Agricultural Statistics, New Delhi.).
+    * They include available data of crop areas from the Farm Structure Survey 2010 at a 10 km x 10 km grid, developing a methodology to gap-fill missing data which was filtered out by confidentiality rules (Bujnowska et al., 2019: Bujnowska, A., Gomez-Prieto, O., Kloek, W., Koeble, R., Leip, D., Martinez-Solano, D., Ramos, H. (2019). Disseminating European data at farm level while protecting confidentiality: scientific use files and homogeneous spatial units, in: International Conference on Agricultural Statistics, New Delhi.).
 
 ##### Reports
 
