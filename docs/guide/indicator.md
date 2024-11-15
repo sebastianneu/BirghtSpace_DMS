@@ -46,3 +46,5 @@ Economy-related topics were divided into two thematic areas. The "General Econom
 | Social equity       | Income distribution (sectoral, spatial)    |
 |                     | Education                                  |
 |                     | Gender equality                            |
+
+Depending on the progress of partners within BrightSpace working on different thematic areas or indicators, information like data, code or article and reports will be listed.
