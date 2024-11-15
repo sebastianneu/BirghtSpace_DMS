@@ -3,8 +3,6 @@ home: true
 title: BrightSpace
 heroImage: /images/brightspace logo horizontal color 300CMYK.png
 
-text: Designing a Roadmap for Effective and Sustainable Strategies for Assessing and Addressing the Challenges of EU Agriculture to Navigate within a Safe and Just Operating Space
-
 actions:
   - text: Database and Monitoring System
     link: /guide/overview.html
@@ -31,6 +29,8 @@ actions:
 # footer:  © 2024 Funded by the European Union | BrightSpace Grant agreement ID 101060075
 # 
 ---
+
+Designing a Roadmap for Effective and Sustainable Strategies for Assessing and Addressing the Challenges of EU Agriculture to Navigate within a Safe and Just Operating Space.
 
 Funded by [the european union]. Views and opinions expressed are those of the authors only and do not necessarily reflect those of the 
 European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them.
