@@ -18,7 +18,7 @@ FADN data and other
 #### Link
 
 [FADN SPATIAL]
-[FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
 
 ### Farm viability
 
+[FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
