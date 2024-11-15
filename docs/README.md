@@ -2,6 +2,9 @@
 home: true
 title: BrightSpace
 heroImage: /images/brightspace logo horizontal color 300CMYK.png
+
+Designing a Roadmap for Effective and Sustainable Strategies for Assessing and Addressing the Challenges of EU Agriculture to Navigate within a Safe and Just Operating Space
+
 actions:
   - text: Database and Monitoring System
     link: /guide/overview.html
