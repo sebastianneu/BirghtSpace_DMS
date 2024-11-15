@@ -1,4 +1,4 @@
-# Safe Operating Space (SOS) thematics
+# Safe Operating Space (SOS) thematic
 
 ## Biodiversity                       
                                    
