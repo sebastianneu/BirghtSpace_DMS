@@ -20,7 +20,7 @@ Data is protected (more than 15 obs. per observation unit).
 
 ##### Reports
 
-* Estimation approaches to downscale policy information from FADN (Chapter 5 in D3.1 Report on stocktake of requirements and technical specifications for the LUM policy database - [LAMASUS project]) [link_explanation1]
+* Estimation approaches to downscale policy information from FADN (Chapter 5 in [D3.1 Report on stocktake of requirements and technical specifications for the LUM policy database] - [LAMASUS project]) 
 
 ##### Article
 
@@ -58,5 +58,5 @@ Temporal scale: depending on progress. Actually 2001-2020 each second year.
 
 [FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
 [link_FSU]: https://verify.lsce.ipsl.fr/
-[link_explanation1]: https://www.lamasus.eu/wp-content/uploads/LAMASUS_D3.1-Report-on-Stocktake-of-Requirements-and-Technical-Specifications-for-the-LUM-Policy-Database.pdf
+[D3.1 Report on stocktake of requirements and technical specifications for the LUM policy database]: https://www.lamasus.eu/wp-content/uploads/LAMASUS_D3.1-Report-on-Stocktake-of-Requirements-and-Technical-Specifications-for-the-LUM-Policy-Database.pdf
 [LAMASUS project]: https://www.lamasus.eu/
