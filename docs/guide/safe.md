@@ -1,72 +1,18 @@
-# SAFE
+# Safe Operating Space (SOS) thematics
 
-## Task 4.2
+## Biodiversity                       
+                                   
+## Land use                           
+                                   
+## Water use                          
 
-### Data or processes required for evidence on SJOS
+## Nutrient flows                     
+                                   
+## Chemical pollution (novel entities)
+                                   
+## Aerosol loading                    
 
-- Non-Tariff Measures
-
-### Resolution
-
-- global, country
-
-### Work started
-
-- YES
-
-### Responsibility
-
-- CITA
-
-### Data toolbox
-
-- Yes, the original data, subject to authorization
-
-### Comments regarding the current status
-
-- EU and FAO-WHO Codex Alimentarius dataset on pesticides downloaded and screened for further use in econometric models. The UNCTAD-TRAINS NTMs database has been matched with bilateral trade data (UN ComTrade) at HS6 digits (720 products), for a panel between 2010-2020. RASFF database has been downloaded and we are in the process of matching with HS6 nomenclature.
-
-## Taks 3.3
-
-### Data or processes required for evidence on SJOS
-
-- Food Waste and Losses along the Supply Chain
-- CAP and CMEF Indicators 
-- Organic farming
-- Dietary developments 
-- Biodiversity, Water, Nitrogen
-
-### Resolution
-
-- EU MSs
-- EU, country level
-- Regional, farm typology
-- global, country
-- regional
-
-### Work started
-
-- YES
-- YES
-- YES
-- YES
-- 
-
-### Responsibility
-
-- WR
-- WR
-- TI/EuroCare
-- TI/EuroCare
-- IIASA
-
-### Data toolbox
-
-- Yes, the original data, subject to authorization
-- As downloaded
-- 
-- Yes
-- maybe
+## Climate                            
 
 ### Comments regarding the current status
 

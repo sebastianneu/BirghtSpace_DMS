@@ -21,4 +21,22 @@ FADN data and other
 
 ### Farm viability
 
+
+## Nutrition security 
+                   
+                   
+                   
+                   
+## Health             
+                   
+                   
+                   
+## Economy            
+                   
+                   
+                   
+                   
+                   
+## Social equity    
+
 [FADN SPATIAL]: https://humusklimanetz-couch.thuenen.de/fadn-spatial/
