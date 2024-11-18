@@ -4,14 +4,14 @@
 
 ### Farm income
 
-#### FADN spatial
+#### *Approach: FADN spatial*
 
-##### Description
+##### *Description*
 FADN subsidies are part of farm income. As these data is only accessible at farm level, a down scaling approach has been developed and applied.
 
 Data is protected (more than 15 obs. per observation unit).
 
-##### Main data sources to produce the data
+##### *Main data sources to produce the data*
 
 * Individual FADN data
 * Farm Structure Spatial Units (FSU) established in the VERIFY project ([link_FSU])
@@ -20,21 +20,21 @@ Data is protected (more than 15 obs. per observation unit).
     * Multi-scale land-use disaggregation modelling: concept and application to EU countries. Environmental Modelling & Software 82, 183-217. [https://doi.org/10.1016/j.envsoft.2016.04.028]), and assessing its accuracy (Leip et al., 2017: Leip, A., Koeble, R., Rotllan-Puig, X., 2017. Land Area Prediction model (LAPM) Accuracy Assessment. European Commission, Ispra (VA), Italy. [https://doi.org/10.2760/624482]). 
     * They include available data of crop areas from the Farm Structure Survey 2010 at a 10 km x 10 km grid, developing a methodology to gap-fill missing data which was filtered out by confidentiality rules (Bujnowska et al., 2019: Bujnowska, A., Gomez-Prieto, O., Kloek, W., Koeble, R., Leip, D., Martinez-Solano, D., Ramos, H. (2019). Disseminating European data at farm level while protecting confidentiality: scientific use files and homogeneous spatial units, in: International Conference on Agricultural Statistics, New Delhi.).
 
-##### Reports
+##### *Reports*
 
 * Estimation approaches to downscale policy information from FADN (Chapter 5 in [D3.1 Report on stocktake of requirements and technical specifications for the LUM policy database] - [LAMASUS project]) 
 
-##### Article
+##### *Article*
 
 Article is prepared for submission.
 
-##### Temporal and spatial scale
+##### *Temporal and spatial scale*
 
 Spatial scale: EU-wide for all countries contributing to the EU-FADN. 
 
 Temporal scale: depending on progress. Actually 2001-2020 each second year.
 
-##### Visualization
+##### *Visualization*
 
 [FADN SPATIAL]
 
