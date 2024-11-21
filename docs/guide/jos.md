@@ -11,7 +11,7 @@ FADN subsidies are part of farm income. As these data is only accessible at farm
 
 Data is protected (more than 15 obs. per observation unit).
 
-##### *Main data sources to produce the data*
+##### *Main data sources to produce the  data*
 
 * Individual FADN data
 * Farm Structure Spatial Units (FSU) established in the VERIFY project ([link_FSU])
