@@ -49,7 +49,7 @@ Among others
 * Sentinel-2 and Landsat 8 data
 * Sentinel-1 data
 * Topographic variables elevation, hillslope, and aspect from a digital elevation model (DEM) with a spatial resolution of 10 m provided by the German Federal Agency for Cartography and Geodesy 
-* High-resolution (1 x 1 km) climatological data (1981 – 2010) on seasonal mean air temperature and precipitation from German Weather Service
+* High-resolution (1 x 1 km) climatological data on seasonal mean air temperature and precipitation from German Weather Service
 * Reference data: Integrated Administration and Control System (IACS)
 
 ##### *Article*
