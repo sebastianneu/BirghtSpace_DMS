@@ -37,7 +37,7 @@ Schwieder, M., Lobert, F., Tetteh, G. O., & Erasmi, S. (2024). Grassland mowing 
 
 ## Land use    
 
-#### *Approach: crop type detection*
+### *Approach: crop type detection*
 
 ##### *Description*
 
@@ -54,7 +54,7 @@ Among others
 
 ##### *Article*
 
-Blickensdörfer, L., Schwieder, M., Pflugmacher, D., Nendel, C., Erasmi, S., Hostert, P. (2022). Mapping of crop types and crop sequences with combined time series of Sentinel-1, Sentinel-2 and Landsat 8 data for Germany. Remote Sens Environ 269:112831, [DOI:10.1016/j.rse.2021.112831]
+Blickensdoerfer, L., Schwieder, M., Pflugmacher, D., Nendel, C., Erasmi, S., Hostert, P. (2022). Mapping of crop types and crop sequences with combined time series of Sentinel-1, Sentinel-2 and Landsat 8 data for Germany. Remote Sens Environ 269:112831, [DOI:10.1016/j.rse.2021.112831]
 
 ##### *Temporal and spatial coverage*
 
@@ -105,7 +105,7 @@ Download links: [Result Indicators], [Context Indicators]
 
 [https://doi.org/10.5281/zenodo.10609590]:https://doi.org/10.5281/zenodo.10609590
 [Agricultural land use]:https://atlas.thuenen.de/catalogue/#/dataset/205
-[Mowing events maps]:https://atlas.thuenen.de/catalogue/#/dataset/215
+[Mowing events map]:https://atlas.thuenen.de/catalogue/#/dataset/215
 [https://doi.org/10.5281/zenodo.10617622]:https://doi.org/10.5281/zenodo.10617622
 [https://doi.org/10.1016/j.rse.2021.112795]:https://doi.org/10.1016/j.rse.2021.112795
 [DOI:10.1016/j.rse.2021.112831]:https://doi.org/10.1016/j.rse.2021.112831
