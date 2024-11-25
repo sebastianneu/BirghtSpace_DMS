@@ -1,8 +1,78 @@
 # Safe Operating Space (SOS) thematic
 
 ## Biodiversity                       
-                                   
-## Land use                           
+
+### *Approach: Grass land intensity - mowing event detection*
+
+##### *Description*
+
+Spatially explicit knowledge on grassland extent and management is critical to understand and monitor the impact of grassland use intensity on ecosystem services and biodiversity. While regional studies allow detailed insights into land use and ecosystem service interactions, information on a national scale can aid biodiversity assessments. However, for most European countries this information is not yet widely available. We used an analysis-ready-data cube that contains dense time series of co-registered Sentinel-2 and Landsat 8 data, covering the extent of Germany. We propose an algorithm that detects mowing events in the time series based on residuals from an assumed undisturbed phenology, as an indicator of grassland use intensity. 
+
+##### *Main data sources to produce the  data*
+
+Among others
+* Sentinel-1, Sentinel-2, Landsat 8 and additional environmental data
+
+##### *Article*
+
+Schwieder, M., Wesemeyer, M., Frantz, D., Pfoch, K., Erasmi, S., Pickert, J., Nendel, C., & Hostert, P. (2022). Mapping grassland mowing events across Germany based on combined Sentinel-2 and Landsat 8 time series. Remote Sensing of Environment, 269, 112795, [https://doi.org/10.1016/j.rse.2021.112795]
+
+##### *Temporal and spatial coverage*
+
+Spatial coverage: Germany. 
+
+Temporal coverage: 2017-2021.
+
+##### *Resolution*
+
+Field level parcel data of different size for grass land.
+
+##### *Data*
+
+Schwieder, M., Lobert, F., Tetteh, G. O., & Erasmi, S. (2024). Grassland mowing events across Germany detected from combined Sentinel-2 and Landsat time series for the years 2017 - 2021 [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10609590]
+
+##### *Visualization*
+
+[Mowing events map]
+
+## Land use    
+
+#### *Approach: crop type detection*
+
+##### *Description*
+
+Based on the multi-year dataset major crop sequences of cereals and leaf crops are mapped. Most crop sequences were dominated by winter cereals followed by summer cereals. Monocultures of summer cereals were mainly revealed in the Northwest of Germany. It is showcased that high spatial and thematic detail in combination with annual mapping will stimulate research on crop cycles and studies to assess the impact of environmental policies on management decisions. The results demonstrate the capabilities of integrated optical time series and SAR data in combination with variables describing local and seasonal environmental conditions for annual large-area crop type mapping.
+
+##### *Main data sources to produce the  data*
+
+Among others
+* Sentinel-2 and Landsat 8 data
+* Sentinel-1 data
+* Topographic variables elevation, hillslope, and aspect from a digital elevation model (DEM) with a spatial resolution of 10 m provided by the German Federal Agency for Cartography and Geodesy 
+* High-resolution (1 × 1 km) climatological data (1981–2010) on seasonal mean air temperature and precipitation from German Weather Service
+* Reference data: Integrated Administration and Control System (IACS)
+
+##### *Article*
+
+Blickensdörfer, L., Schwieder, M., Pflugmacher, D., Nendel, C., Erasmi, S., Hostert, P. (2022). Mapping of crop types and crop sequences with combined time series of Sentinel-1, Sentinel-2 and Landsat 8 data for Germany. Remote Sens Environ 269:112831, [DOI:10.1016/j.rse.2021.112831]
+
+##### *Temporal and spatial coverage*
+
+Spatial coverage: Germany. 
+
+Temporal coverage: 2017-2021.
+
+##### *Resolution*
+
+Field level parcel data of different size.
+
+##### *Data*
+
+[https://doi.org/10.5281/zenodo.10617622]
+
+##### *Visualization*
+
+[Agricultural land use]
                                    
 ## Water use                          
 
@@ -33,8 +103,12 @@ Download links: [Result Indicators], [Context Indicators]
 - This dataset comprises spatial biophysical data regarding aspect, elevation and slope derived from [Global and European Digital Elevation Model (COP-DEM)] and topsoil properties derived from [Topsoil physical properties for Europe] to the NUTS regions across Europe. The dataset consists of two files, each corresponding to a different level of NUTS coding (NUTS 2/3).
 
 
-
-
+[https://doi.org/10.5281/zenodo.10609590]:https://doi.org/10.5281/zenodo.10609590
+[Agricultural land use]:https://atlas.thuenen.de/catalogue/#/dataset/205
+[Mowing events maps]:https://atlas.thuenen.de/catalogue/#/dataset/215
+[https://doi.org/10.5281/zenodo.10617622]:https://doi.org/10.5281/zenodo.10617622
+[https://doi.org/10.1016/j.rse.2021.112795]:https://doi.org/10.1016/j.rse.2021.112795
+[DOI:10.1016/j.rse.2021.112831]:https://doi.org/10.1016/j.rse.2021.112831
 [Joint Research Centre Data Catalogue]:http://data.europa.eu/89h/a86ae681-f051-4809-85f3-5fa0ad7b25ee
 [Population on 1 January by age and sex]: https://ec.europa.eu/eurostat/databrowser/view/demo_pjan__custom_10368095/default/table
 [Real GDP per capita]: https://ec.europa.eu/eurostat/databrowser/view/sdg_08_10/default/table

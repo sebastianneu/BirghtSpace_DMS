@@ -4,7 +4,7 @@
 
 ### Farm income
 
-#### *Approach: FADN spatial*
+#### *Approach: FADN spatial - Downscaling*
 
 ##### *Description*
 FADN subsidies are part of farm income. As these data is only accessible at farm level, a down scaling approach has been developed and applied.
@@ -28,11 +28,15 @@ Data is protected (more than 15 obs. per observation unit).
 
 Article is prepared for submission.
 
-##### *Temporal and spatial scale*
+##### *Temporal and spatial coverage*
 
-Spatial scale: EU-wide for all countries contributing to the EU-FADN. 
+Spatial coverage: EU-wide for all countries contributing to the EU-FADN. 
 
-Temporal scale: depending on progress. Actually 2001-2020 each second year.
+Temporal coverage: depending on progress. Actually 2001-2020 each second year.
+
+##### *Resolution*
+
+Farm Structure Spatial Units (FSU). High resolution of grids of different size.
 
 ##### *Visualization*
 
