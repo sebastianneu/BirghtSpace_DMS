@@ -1,4 +1,4 @@
-# Alligning SJOS to thematic areas and indicator domains 
+# Aligning SJOS to thematic areas and indicator domains 
 
 Based on a review of the Safe Operating Spaces (SOS) and Just Operating Spaces (JOS) concepts, a comparison and alignment with EU policy targets, and expert consultations, a set of 12 thematic areas and 34 indicator domains was developed. The SOS components closely align with concepts in the literature on planetary boundaries, with the notable exceptions of ocean acidification and ozone layer depletion. For JOS, significant overlap was found between the literature and EU policies, particularly in the areas of food and nutrition security and health.
 
