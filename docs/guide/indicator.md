@@ -4,7 +4,7 @@ Based on a review of the Safe Operating Spaces (SOS) and Just Operating Spaces (
 
 Economy-related topics were divided into two thematic areas. The "General Economy" area addresses the relative position of agriculture compared to other sectors in terms of employment, value-added, wages, and input prices. Topics specific to the agricultural sector, such as farm incomes, economic viability, future prospects, and farm structure, are encompassed within the broader thematic area of "Farm resilience." The resulting thematic areas and indicator domains are detailed below.
 
-## Safe Operating Spaces Thematic Areas and Indicator Domains
+## [Safe Operating Spaces Thematic Areas and Indicator Domains](/docs/guide/safe.md)
 
 | Thematic area                       | Indicator Domain                          |
 | ----------------------------------- | ----------------------------------------- |
@@ -21,7 +21,7 @@ Economy-related topics were divided into two thematic areas. The "General Econom
 | Climate                             | GHG emissions                             |
 
 
-## Just Operating Spaces Thematic Areas and Indicator Domains
+## [Just Operating Spaces Thematic Areas and Indicator Domains](/docs/guide/jos.md)
 
 | Thematic area       | Indicator Domain                           |
 | ------------------- | ------------------------------------------ |
